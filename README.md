@@ -1,6 +1,6 @@
 # Video Encoder
 
-A video encoder that achieves 90% compression by converting frames and implementing delta encoding, run-lenth encoding, and DEFLATE compression.
+A video encoder that achieves 90% compression by converting frames and implementing delta encoding, run-lenth encoding, and deflate compression.
 
 https://github.com/s-sajid/video-encoder/assets/88870507/292f98e1-175d-47cf-aed2-820b6d022129
 
