@@ -13,8 +13,8 @@ func main() {
 	var width int
 	var height int
 
-	flag.IntVar(&width, "width", 384, "width of the video")
-	flag.IntVar(&height, "height", 216, "height of the video")
+	flag.IntVar(&width, "width", 1080, "width of the video")
+	flag.IntVar(&height, "height", 1920, "height of the video")
 	flag.Parse()
 
 	frames := make([][]byte, 0)
