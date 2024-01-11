@@ -2,6 +2,8 @@
 
 A video encoder that achieves 90% compression by converting frames and implementing delta encoding, run-lenth encoding, and DEFLATE compression.
 
+https://github.com/s-sajid/video-encoder/assets/88870507/292f98e1-175d-47cf-aed2-820b6d022129
+
 ## Usage
 
 First, convert the `.mp4` file into a `.rgb` using:
