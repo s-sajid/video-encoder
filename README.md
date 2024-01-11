@@ -4,7 +4,11 @@ A video encoder that achieves 90% compression by converting frames and implement
 
 ## Usage
 
-To start the encoding application, run the following command:
+First, convert the `.mp4` file into a `.rgb` using:
+
+`ffmpeg -i koala.mp4 -c:v rawvideo -pix_fmt rgb24 koala.rgb`
+
+Next, to start the encoding application, run the following command:
 
 `cat koala.rgb | go run main.go`
 
@@ -15,6 +19,8 @@ The decoded video can then be played with ffplay using the following command:
 To convert the `.rgb` file back into `.mp4`, run the following command:
 
 `ffmpeg -f rawvideo -pixel_format rgb24 -video_size 1080x1920 -framerate 25 -i koala.rgb -c:v libx264 -pix_fmt yuv420p output.mp4`
+
+Note, the parameters for these commands will change depending on user requirements.
 
 ## Description
 
